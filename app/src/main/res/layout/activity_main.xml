@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/windmillBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFEB3B"
+            android:layout_marginBottom="10dp"
+            android:onClick="mainBtn"
+            android:text="Windmill" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Spin"
+            android:background="#FFEB3B"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/spinBtn"
+            android:onClick="mainBtn"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Diagonal"
+            android:background="#FFEB3B"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/diagonalBtn"
+            android:onClick="mainBtn"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Split"
+            android:background="#FFEB3B"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/splitBtn"
+            android:onClick="mainBtn"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shrink"
+            android:background="#FFEB3B"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/shrinkBtn"
+            android:onClick="mainBtn"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Card"
+            android:background="#FFEB3B"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/cardBtn"
+            android:onClick="mainBtn"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="In and Out"
+            android:background="#FFEB3B"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/inandoutBtn"
+            android:onClick="mainBtn"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Swipe Left"
+            android:background="#FFEB3B"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/swipeleftBtn"
+            android:onClick="mainBtn"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Swipe Right"
+            android:background="#FFEB3B"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/swiperightBtn"
+            android:onClick="mainBtn"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Slide Left"
+            android:background="#FFEB3B"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/slideleftBtn"
+            android:onClick="mainBtn"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Slide Right"
+            android:background="#FFEB3B"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/sliderightBtn"
+            android:onClick="mainBtn"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Slide Down"
+            android:background="#FFEB3B"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/slidedownBtn"
+            android:onClick="mainBtn"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Slide Up"
+            android:background="#FFEB3B"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/slideupBtn"
+            android:onClick="mainBtn"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zoom"
+            android:background="#FFEB3B"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/zoomBtn"
+            android:onClick="mainBtn"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fade"
+            android:background="#FFEB3B"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/fadeBtn"
+            android:onClick="mainBtn"/>
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="100dp"
+            android:src="@drawable/planner4"
+            android:scaleType="centerCrop"
+            android:id="@+id/image_activity_1"
+            android:transitionName="example_transition"
+            android:layout_gravity="center"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="open activity"
+            android:id="@+id/button"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+
+</ScrollView>
